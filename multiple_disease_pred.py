@@ -12,13 +12,10 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('/opt/render/project/src/diseasespredictor/saved models/diabetes_model.sav', 'rb'))
-parkinson_model = pickle.load(open('/opt/render/project/src/diseasespredictor/saved models/parkinsons_model.sav', 'rb'))
-heart_model = pickle.load(open('/opt/render/project/src/diseasespredictor/saved models/heart_disease_model.sav', 'rb'))
-
-
-
-
+# Load the models using relative paths
+diabetes_model = pickle.load(open('diseasespredictor/saved models/diabetes_model.sav', 'rb'))
+parkinson_model = pickle.load(open('diseasespredictor/saved models/parkinsons_model.sav', 'rb'))
+heart_model = pickle.load(open('diseasespredictor/saved models/heart_disease_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:

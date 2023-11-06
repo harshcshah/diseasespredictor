@@ -12,9 +12,9 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:\\Users\\Harsh shah\\ML Projects\\Course Recomendation System\\Multiple Disease Prediction System\\saved models\\diabetes_model.sav', 'rb'), encoding='latin1')
-parkinson_model = pickle.load(open('C:\\Users\\Harsh shah\\ML Projects\\Course Recomendation System\\Multiple Disease Prediction System\\saved models\\parkinsons_model.sav', 'rb'), encoding='latin1')
-heart_model = pickle.load(open('C:\\Users\\Harsh shah\\ML Projects\\Course Recomendation System\\Multiple Disease Prediction System\\saved models\\heart_disease_model.sav', 'rb'), encoding='latin1')
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb')
+parkinson_model = pickle.load(open('parkinsons_model.sav', 'rb')
+heart_model = pickle.load(open('heart_disease_model.sav', 'rb')
 
 
 

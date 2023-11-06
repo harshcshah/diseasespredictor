@@ -12,7 +12,6 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-# Update the path to the  model
 diabetes_model = pickle.load(open('diseasespredictor/saved models/diabetes_model.sav', 'rb'))
 parkinson_model = pickle.load(open('diseasespredictor/saved models/parkinsons_model.sav', 'rb'))
 heart_model = pickle.load(open('diseasespredictor/saved models/heart_disease_model.sav', 'rb'))
